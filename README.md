@@ -1,21 +1,31 @@
 # ABCD
 
-Yet another .NET application.
-
-## Features
-
-- Admin: Seperate area.
-- AppSettings: Environment, Version.
-- Logging: Serilog.
+.NET application.
 
 ## Architecture
 
-- App: Web application
-- Core: Entities, Interfaces
+- App: Application
 - Business: Services
-- Data: Repositories
+- Core: Entities, Interfaces
+- Data: Repositories, EF Migrations
 
 ## Frameworks
 
 - .NET
 - Bootstrap
+
+### Tools
+
+Execte following commands in order to get required dotnet tools (defined in .config\dotnet-tools.json) :
+
+`dotnet tool restore`
+
+`dotnet tool list`
+
+The result should look like this:
+
+```cli
+Package Id                         Version      Commands
+---------------------------------------------------------------------------
+dotnet-ef                          8.0.8       dotnet-ef
+```
