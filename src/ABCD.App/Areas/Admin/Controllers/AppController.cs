@@ -13,6 +13,7 @@ public class AppController : BaseController
 
     public ActionResult Index()
     {
+        _logger.LogInformation("{Name} {Environment} {Version}", _settings.Name, _settings.Environment, _settings.Version);
         return View();
     }
 
