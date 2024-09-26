@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32317.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCD.Core", "ABCD.Core\ABCD.Core.csproj", "{B55B8BD1-1C6B-4205-9081-4796D6245771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCD.Core", "src\ABCD.Core\ABCD.Core.csproj", "{B55B8BD1-1C6B-4205-9081-4796D6245771}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCD.Data", "ABCD.Data\ABCD.Data.csproj", "{78FFF1DB-FD36-4A5D-87EA-2451B4E3C54B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCD.Data", "src\ABCD.Data\ABCD.Data.csproj", "{78FFF1DB-FD36-4A5D-87EA-2451B4E3C54B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCD.Business", "ABCD.Business\ABCD.Business.csproj", "{9689B2E0-3510-4499-82D4-999030C3E687}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCD.Business", "src\ABCD.Business\ABCD.Business.csproj", "{9689B2E0-3510-4499-82D4-999030C3E687}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCD.App", "ABCD.App\ABCD.App.csproj", "{5558DED1-F46E-468E-973A-9B20B2F0E42F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B86406B7-C7F4-47AE-BA99-FE35ECEB9FEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCD.App", "src\ABCD.App\ABCD.App.csproj", "{5558DED1-F46E-468E-973A-9B20B2F0E42F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
