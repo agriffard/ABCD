@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets": {
+      "type": "secrets.user"
+    },
+    "mssql": {
+      "secretStore": "LocalSecretsFile",
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:Northwind"
+    }
+  }
+}

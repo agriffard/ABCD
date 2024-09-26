@@ -1,0 +1,12 @@
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using ABCD.Core.Constants;
+global using ABCD.Core.Enums;
+global using ABCD.Core.Entities;
+global using ABCD.Core.Interfaces.Data;
+global using ABCD.Core.Interfaces.Data.Base;
+global using ABCD.Data.Context;
+global using ABCD.Data.Repositories;
+global using ABCD.Data.Repositories.Base;

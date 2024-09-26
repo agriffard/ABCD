@@ -1,0 +1,11 @@
+global using System.Diagnostics;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.Extensions.Options;
+global using Serilog;
+global using ABCD.App.Configuration;
+global using ABCD.Business;
+global using ABCD.Controllers;
+global using ABCD.Core.Configuration;
+global using ABCD.Data;
+global using ABCD.Data.Context;
+global using ABCD.Models;
