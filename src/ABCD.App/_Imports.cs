@@ -1,5 +1,4 @@
 global using System.Diagnostics;
-global using ABCD.App.Configuration;
 global using ABCD.App.Extensions;
 global using ABCD.Business;
 global using ABCD.Controllers;

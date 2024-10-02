@@ -1,5 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
-builder.AddSerilog();
+builder.Host.UseSerilog((context, configuration) => configuration.ReadFrom.Configuration(builder.Configuration));
 
 builder.Services.AddControllersWithViews();
 
@@ -38,7 +38,6 @@ app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Inde
 
 var logger = app.Services.GetRequiredService<ILogger<Program>>();
 var appSettings = app.Services.GetRequiredService<IOptions<AppSettings>>().Value;
-//var appName = builder.Configuration[$"{nameof(AppSettings)}:{nameof(AppSettings.Name)}"];
 logger.LogInformation("Starting {Name}: env = {Environment}, version = {Version}.", appSettings.Name, appSettings.Environment, appSettings.Version);
 
 app.Run();
