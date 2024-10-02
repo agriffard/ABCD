@@ -38,6 +38,6 @@ app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Inde
 
 var logger = app.Services.GetRequiredService<ILogger<Program>>();
 var appSettings = app.Services.GetRequiredService<IOptions<AppSettings>>().Value;
-logger.LogInformation("Starting {Name}: env = {Environment}, version = {Version}.", appSettings.Name, appSettings.Environment, appSettings.Version);
+logger.LogInformation("Starting {@AppSettings}", appSettings);
 
 app.Run();
