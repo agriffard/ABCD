@@ -1,4 +1,4 @@
-namespace ABCD.App.Extensions;
+namespace ABCD.Core.Extensions;
 
 public static class ServiceCollectionExtensions
 {

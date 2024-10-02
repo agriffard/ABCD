@@ -1,8 +1,8 @@
 global using System.Diagnostics;
-global using ABCD.App.Extensions;
 global using ABCD.Business;
 global using ABCD.Controllers;
 global using ABCD.Core.Configuration;
+global using ABCD.Core.Extensions;
 global using ABCD.Data;
 global using ABCD.Data.Context;
 global using ABCD.Models;

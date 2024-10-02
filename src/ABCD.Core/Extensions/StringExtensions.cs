@@ -1,6 +1,3 @@
-using System.Globalization;
-using System.Text;
-
 namespace ABCD.Core.Extensions;
 
 public static class StringExtensions
