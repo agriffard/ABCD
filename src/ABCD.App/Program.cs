@@ -36,8 +36,7 @@ app.UseAuthorization();
 app.MapAreaControllerRoute("Admin", "Admin", "Admin/{controller=Home}/{action=Index}/{id?}");
 app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
 
-var logger = app.Services.GetRequiredService<ILogger<Program>>();
 var appSettings = app.Services.GetRequiredService<IOptions<AppSettings>>().Value;
-logger.LogInformation("Starting {@AppSettings}", appSettings);
+app.Logger.LogInformation("Starting {@AppSettings}", appSettings);
 
 app.Run();
