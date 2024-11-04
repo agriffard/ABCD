@@ -4,7 +4,8 @@ public static class ServiceCollectionExtensions
 {
     public static IServiceCollection ConfigureSettings(this IServiceCollection services, IConfiguration config)
     {
-        services.Configure<AppSettings>(config.GetSection(nameof(AppSettings)));
+        services.AddOptions<AppSettings>().BindConfiguration(nameof(AppSettings)).ValidateDataAnnotations().ValidateOnStart();
+
         return services;
     }
 }
