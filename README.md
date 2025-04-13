@@ -16,7 +16,7 @@
 
 ### Tools
 
-Execte following commands in order to get required dotnet tools (defined in .config\dotnet-tools.json) :
+Execute the following commands in order to get required dotnet tools (defined in .config\dotnet-tools.json):
 
 `dotnet tool restore`
 
