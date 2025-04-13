@@ -27,5 +27,5 @@ The result should look like this:
 ```cli
 Package Id                         Version      Commands
 ---------------------------------------------------------------------------
-dotnet-ef                          8.0.10       dotnet-ef
+dotnet-ef                          8.0.15       dotnet-ef
 ```

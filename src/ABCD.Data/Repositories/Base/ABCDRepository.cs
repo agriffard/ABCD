@@ -1,5 +1,3 @@
-//using Divotiz.Common.Core.Interfaces.Entities;
-
 namespace ABCD.Data.Repositories.Base;
 
 public class ABCDRepository<T, TId> : IABCDRepository<T, TId>
